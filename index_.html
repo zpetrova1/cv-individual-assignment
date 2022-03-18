@@ -13,7 +13,11 @@
 
     <!-- Links to our additional CSS styles -->
     <link rel="stylesheet" href="css/styles.css">
-
+	  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Black+Han+Sans&family=Cormorant+SC:wght@300;700&display=swap" rel="stylesheet">
+	  
     <!-- Alternative CSS for demonstration purposes. You must deactivate the Bootstrap CSS to activate this one. -->
     <!-- 
     <link rel="stylesheet" href="css/alternative.css">
@@ -54,7 +58,7 @@
           A container to wrap around your name and tagline. Full-width at small size, then columns of increasing size.
         -->
         <div class="col-12 col-sm-8 col-md-9 col-lg-10 my-3 header-content">
-          <h1 class="fw-bolder">Zornitsa Petrova&nbsp;&nbsp;</h1>
+          <h1 class="fw-bolder">ZORNITSA PETROVA&nbsp; &nbsp;</h1>
           <h5 class="fst-italic tagline">A second-year Creative Business student at Breda University of Applied Sciences&nbsp;</h5>
         </div>
       </header>
@@ -75,12 +79,15 @@
             <section> is yet another semantic element. The first one is for professional experience.
           -->
           <section class="my-3 biography-section">
-            <h2>Professional Experience</h2>
+            <h2 class="text-sm-center fw-bold">Professional Experience </h2> 
+			  
+			  
             <!--
               Each list item (li) in the unordered list (ul) below will be one job.
               "list-unstyled" is a class that hides the bullet points of a list.
             -->
             <ul class="biography-list list-unstyled">
+
 
               <!-- Top item (generally the latest or most relevant) in professional experience -->
               <li class="biography-item row mb-2">
@@ -89,7 +96,7 @@
                   <img class="biography-logo mw-100 d-block mx-auto" src="images/employers/projector.svg" alt="Company logo" width="80">
                 </div>
                 <div class="biography-contents col-9 col-sm-10 col-md-9 col-lg-10">
-                  <h4>Creative Director, BUAS AV department&nbsp; &nbsp; &nbsp; &nbsp;&nbsp;</h4>
+                  <h4 class="fw-bolder">Creative Director, BUAS AV department&nbsp; &nbsp; &nbsp; &nbsp;&nbsp;</h4>
                   <h5>September 2021– now&nbsp;</h5>
                   <!-- Use the list below to talk about your achievements -->
                   <ul class="biography-details list-unstyled">
@@ -105,10 +112,10 @@
 				  
                 <div class="logo-container col-3 col-sm-2 col-md-3 col-lg-2">
                 <!-- We're using a grid inside a grid so we can align logos and text -->
-                  <img class="biography-logo mw-100 d-block mx-auto" src="images/employers/trolley.svg" alt="Company logo" width="80">
+                  <img class="biography-logo mw-100 d-block mx-auto" src="images/icons/control.svg" alt="Company logo" width="80">
                 </div>
                 <div class="biography-contents col-9 col-sm-10 col-md-9 col-lg-10">
-                  <h4>Game operator ,&nbsp; &nbsp;Escape room  "The Madness of the Genius"</h4>
+                  <h4 class="fw-bolder">Game operator,&nbsp; &nbsp; Escape room  "The Madness of the Genius"</h4>
                   <h5>June 2018-June 2020</h5>
 					<ul class="biography-details list-unstyle">  
 						<li> Monitoring of the game process</li>
@@ -131,7 +138,7 @@
           <!-- We're done with jobs, let's move on to schools -->
 
           <section class="my-3 biography-section">
-            <h2>Education</h2>
+            <h2 class="text-center fw-bolder">Education</h2>
             <ul class="biography-list list-unstyled">
 
               <!-- Top item in education. And by "top", I mean a Bachelor in Creative Business at BUas. -->
@@ -140,7 +147,7 @@
                   <img class="biography-logo mw-100 d-block mx-auto" src="images/schools/logo-buas.svg" alt="School logo" width="120">
                 </div>
                 <div class="biography-contents col-9 col-sm-10 col-md-9 col-lg-10">
-                  <h4>BA in Creative Business, Breda University of Applied Sciences</h4>
+                  <h4 class="fw-bold">BA in Creative Business, Breda University of Applied Sciences</h4>
                   <h5>2020 –&nbsp;now</h5>
                   <!-- Use the list below to talk about minors, exchanges, extra-curricular activities. -->
                   <ul class="biography-details list-unstyled">
@@ -158,7 +165,7 @@
                   <img class="biography-logo mw-100 d-block mx-auto" src="images/schools/school.svg" alt="School logo" width="80">
                 </div>
                 <div class="biography-contents col-9 col-sm-10 col-md-9 col-lg-10">
-                  <h4>Second English Language School "Thomas Jefferson", Sofia, Bulgaria&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;</h4>
+                  <h4 class="fw-bolder">Second English Language School "Thomas Jefferson", Sofia, Bulgaria&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;</h4>
                   <h5>September 2015- June 2020</h5>
                   <ul class="biography-details list-unstyled">
                     <li>Specialization in the sphere of languages, history and geography&nbsp; &nbsp; &nbsp;&nbsp;&nbsp;</li>
@@ -181,7 +188,7 @@
 
           <!-- The first block will be contact details -->
           <section class="my-3 aside-section">
-            <h2>Contact</h2>
+            <h2 class="fw-bolder">Contact</h2>
             <!--
               A list of all your contact details.
               There are more icons in the images/icons folder, have a look if you want to add your LinkedIn or TikTok profile.
@@ -216,7 +223,7 @@
           <!-- End of contact details, moving on to languages -->
 
           <section class="my-3 aside-section">
-            <h2>Languages</h2>
+            <h2 class="fw-bolder">Languages</h2>
             <!-- Each item in the list is a language. Modify, add or remove depending on what you speak -->
             <ul class="language-list list-unstyled">
               <li class="language-item d-flex mb-1">
@@ -252,7 +259,7 @@
           <!-- End of contact details, moving on to other skills -->
 
           <section class="my-3 aside-section">
-            <h2>Other Skills</h2>
+            <h2 class="fw-bold">Other Skills</h2>
             <ul class="skill-list list-unstyled">
               <li class="skill-item">Meeting tight deadlines&nbsp; &nbsp;&nbsp;</li>
               <li class="skill-item">Microsoft Office Power User</li>
@@ -263,7 +270,7 @@
           <!-- End of other skills, moving on to interest and hobbies -->
 
           <section class="my-3 aside-section">
-            <h2>Interests &amp; Hobbies</h2>
+            <h2 class="fw-bolder">Interests &amp; Hobbies</h2>
             <ul class="skill-list list-unstyled">
               <li class="skill-item">Photography&nbsp;&nbsp;&nbsp;</li>
               <li class="skill-item">Editing&nbsp; &nbsp;</li>
