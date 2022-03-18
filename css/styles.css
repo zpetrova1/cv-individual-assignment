@@ -1,31 +1,43 @@
 /* Use this file to use your own styles*/
 
 /* Import declaration to use Google Fonts - check https://fonts.google.com/ for details */
-@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+@import url('https://fonts.google.com/specimen/Black+Han+Sans#standard-styles');
 
 /* Styles for the body */
 
 body {
-	font-family: Lato, "Open Sans", Roboto, "Segoe UI", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-family: Lato, Baskerville, 'Gill Sans', 'Gill Sans MT', 'Myriad Pro', 'DejaVu Sans Condensed', Helvetica, Arial, 'sans-serif'Palatino, 'Century Schoolbook L', 'Times New Roman', 'serif'Roboto, "Segoe UI", "Helvetica Neue", Helvetica, Arial, sans-serif;
 	color: #202030;
 	background-color: #f8f8fc;
 }
+header  { font-family: 'Black Han Sans', sans-serif;
+font-family: 'Cormorant SC', serif;
+
+
+}	
 
 /* Styles for custom classes in the document. (There are more, try to find them out!) */
 
 .resume-header {
-    background-color: #e0f0ff;
+    background-color: #0D0D0D;
+	color: #FFFFFF;
+			
 }
 
 .resume-main {
 	background-color: #fffefc;
+	font-family: 'Cormorant SC', serif;
+	
 }
 
 .resume-aside {
-	background-color: #fff0e0;
+	background-color: #404040;
+	color: #FFFFFF; 
+	
 }
 
 /* Styles for lists in the document */
+
 
 .biography-details li::before, .skill-list li::before {
 	content: ">";
@@ -36,7 +48,7 @@ body {
 }
 
 .biography-details li::before {
-	color: #EE7623;
+	color: #FAD49F;
 }
 
 .biography-details li, .skill-list li {
