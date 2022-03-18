@@ -48,7 +48,7 @@ font-family: 'Cormorant SC', serif;
 }
 
 .biography-details li::before {
-	color: #FAD49F;
+	color:#000000;
 }
 
 .biography-details li, .skill-list li {
@@ -60,4 +60,17 @@ font-family: 'Cormorant SC', serif;
 .contact-icon {
 	height: 1em;
 	flex-basis: 1.4em;
+}
+
+.special-title {
+	font-family: 'Cormorant SC', serif;
+}
+.language-progress {
+	background-color: #BDBDBD;
+}
+.language-box {
+	color: #000000; 
+}
+.bigger-font {
+	font-size: 50; 
 }
